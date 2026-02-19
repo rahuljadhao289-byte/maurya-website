@@ -175,3 +175,64 @@ header h1 {
   justify-content: center;
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #ff512f, #dd2476, #1fa2ff, #12d8fa);
+  background-size: 300% 300%;
+  animation: bg 12s ease infinite;
+}
+
+@keyframes bg {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.top {
+  text-align: center;
+  padding: 30px 20px;
+  background: rgba(0,0,0,0.5);
+}
+
+.logo {
+  height: 70px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, gold, orange);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px gold;
+}
+
+.card {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
