@@ -127,37 +127,51 @@ footer {
   font-size: 14px;
   border-top: 1px solid #333;
 }
-body {
+header {
+  background: linear-gradient(135deg, #d4af37, #ffb703);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #111;
   margin: 0;
-  font-family: Arial, sans-serif;
-  min-height: 100vh;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.section {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 1100px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #d4af37, #ffb703);
+  color: #111;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-  /* Gradient + Image */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(255,183,3,0.6);
+}
+.hero {
+  height: 100vh;
   background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
+    linear-gradient(135deg, rgba(15,32,39,0.8), rgba(44,83,100,0.8)),
     url("factory.jpg");
-
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-.section1 {
-  background: linear-gradient(135deg, #ff9800, #ff5722);
-  color: white;
-  padding: 60px 20px;
-}
-
-.section2 {
-  background: linear-gradient(135deg, #2196f3, #00bcd4);
-  color: white;
-  padding: 60px 20px;
-}
-
-.section3 {
-  background: linear-gradient(135deg, #4caf50, #8bc34a);
-  color: white;
-  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
