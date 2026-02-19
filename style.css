@@ -127,3 +127,37 @@ footer {
   font-size: 14px;
   border-top: 1px solid #333;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+
+  /* Gradient + Image */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("factory.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section1 {
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
+  padding: 60px 20px;
+}
+
+.section2 {
+  background: linear-gradient(135deg, #2196f3, #00bcd4);
+  color: white;
+  padding: 60px 20px;
+}
+
+.section3 {
+  background: linear-gradient(135deg, #4caf50, #8bc34a);
+  color: white;
+  padding: 60px 20px;
+}
