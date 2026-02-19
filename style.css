@@ -157,7 +157,12 @@ body {
 }
 
 .logo {
-  height: 70px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid gold;
+  background: white;
 }
 
 .hero {
